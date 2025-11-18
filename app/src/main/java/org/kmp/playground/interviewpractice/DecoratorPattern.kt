@@ -4,7 +4,7 @@ interface Coffee{
     fun getCosts(): Double
     fun getIngredient(): String
 }
-
+// Base class
 class BlackCoffee: Coffee{
     override fun getCosts(): Double = 4.0
 
